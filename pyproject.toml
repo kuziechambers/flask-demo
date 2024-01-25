@@ -8,6 +8,10 @@ authors = []
 python = "~3.11"
 selenium = "*"
 requests = "*"
+ruff = "^0.1.14"
+flask = "^3.0.1"
+flask-sqlalchemy = "^3.1.1"
+flask-login = "^0.6.3"
 
 [tool.poetry.dev-dependencies]
 black = "*"
@@ -17,7 +21,6 @@ callee = "*"
 pylint = "*"
 mypy = "*"
 flake8 = "*"
-ruff = "*"
 
 [tool.poetry.scripts]
 run = "flask_demo.handler:handler"

@@ -17,7 +17,7 @@ def json_data_dump(data_dict: Any, file_name: str):
     """
 
     file_path = f"data/{file_name}"
-    
+
     with open(file_path, "w") as json_outfile:
         json.dump(data_dict, json_outfile)
 

@@ -1,8 +1,9 @@
-"""
-This module contains the main logic of the project
-"""
+from flask_demo.site import create_app
 
-from typing import Any, Dict
+app = create_app()
+
+if __name__ == "__main__":
+    app.run(debug=True)
 
 
 def main():
